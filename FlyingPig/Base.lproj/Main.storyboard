@@ -79,6 +79,7 @@
                             <constraint firstItem="k7Y-Bs-4cj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="148" id="Lcp-sC-u1r"/>
                             <constraint firstItem="SqM-vx-dsk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="148" id="Ne3-of-Eou"/>
                             <constraint firstItem="YQI-7x-Ybo" firstAttribute="top" secondItem="FXp-N5-CfL" secondAttribute="bottom" constant="151" id="NlI-dj-UgM"/>
+                            <constraint firstItem="01I-3p-6gd" firstAttribute="top" relation="lessThanOrEqual" secondItem="AKp-lP-0TK" secondAttribute="bottom" priority="948" constant="224" id="VAP-Qy-y3p"/>
                             <constraint firstAttribute="centerX" secondItem="AKp-lP-0TK" secondAttribute="centerX" id="zw8-yz-pSk"/>
                         </constraints>
                     </view>
