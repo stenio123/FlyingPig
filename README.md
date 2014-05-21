@@ -3,7 +3,7 @@ Flying Pig
 
 <b>Because why not?<b/>
 
-![Screenshot](https://github.com/stenio123/MagicNavigationTitle/raw/master/FlyingPig/FlyingPigDemo.gif)
+![Screenshot](https://github.com/stenio123/FlyingPig/raw/master/FlyingPig/FlyingPigDemo.gif)
 
 <br/>
 An exercise using Autolayout and animations.
