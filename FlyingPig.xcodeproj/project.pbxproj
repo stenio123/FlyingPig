@@ -21,8 +21,8 @@
 		419CFD21192BE27D00E5B337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419CFD03192BE27D00E5B337 /* UIKit.framework */; };
 		419CFD29192BE27D00E5B337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD27192BE27D00E5B337 /* InfoPlist.strings */; };
 		419CFD2B192BE27D00E5B337 /* FlyingPigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 419CFD2A192BE27D00E5B337 /* FlyingPigTests.m */; };
-		419CFD35192CF60300E5B337 /* FlyingPigDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD34192CF60300E5B337 /* FlyingPigDemo.gif */; };
 		419CFD37192CF64900E5B337 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD36192CF64900E5B337 /* README.md */; };
+		419CFD39192D0ECB00E5B337 /* FlyingPigDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD38192D0ECB00E5B337 /* FlyingPigDemo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		419CFD26192BE27D00E5B337 /* FlyingPigTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyingPigTests-Info.plist"; sourceTree = "<group>"; };
 		419CFD28192BE27D00E5B337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		419CFD2A192BE27D00E5B337 /* FlyingPigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingPigTests.m; sourceTree = "<group>"; };
-		419CFD34192CF60300E5B337 /* FlyingPigDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FlyingPigDemo.gif; sourceTree = "<group>"; };
 		419CFD36192CF64900E5B337 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		419CFD38192D0ECB00E5B337 /* FlyingPigDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FlyingPigDemo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		419CFD06192BE27D00E5B337 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				419CFD34192CF60300E5B337 /* FlyingPigDemo.gif */,
+				419CFD38192D0ECB00E5B337 /* FlyingPigDemo.gif */,
 				419CFD07192BE27D00E5B337 /* FlyingPig-Info.plist */,
 				419CFD08192BE27D00E5B337 /* InfoPlist.strings */,
 				419CFD0B192BE27D00E5B337 /* main.m */,
@@ -234,11 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419CFD39192D0ECB00E5B337 /* FlyingPigDemo.gif in Resources */,
 				419CFD18192BE27D00E5B337 /* Images.xcassets in Resources */,
 				419CFD0A192BE27D00E5B337 /* InfoPlist.strings in Resources */,
 				419CFD37192CF64900E5B337 /* README.md in Resources */,
 				419CFD13192BE27D00E5B337 /* Main.storyboard in Resources */,
-				419CFD35192CF60300E5B337 /* FlyingPigDemo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
