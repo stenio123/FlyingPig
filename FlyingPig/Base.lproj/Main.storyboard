@@ -72,19 +72,24 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="AKp-lP-0TK" firstAttribute="top" secondItem="k7Y-Bs-4cj" secondAttribute="bottom" constant="84" id="6jx-Sh-7Nw"/>
-                            <constraint firstItem="AKp-lP-0TK" firstAttribute="top" secondItem="SqM-vx-dsk" secondAttribute="bottom" constant="25" id="AHA-dt-mi5"/>
-                            <constraint firstItem="AKp-lP-0TK" firstAttribute="top" secondItem="YQI-7x-Ybo" secondAttribute="bottom" constant="50" id="H0U-QE-TgE"/>
                             <constraint firstItem="YQI-7x-Ybo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="97" id="J1C-xz-pg4"/>
                             <constraint firstItem="k7Y-Bs-4cj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="148" id="Lcp-sC-u1r"/>
                             <constraint firstItem="SqM-vx-dsk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="148" id="Ne3-of-Eou"/>
                             <constraint firstItem="YQI-7x-Ybo" firstAttribute="top" secondItem="FXp-N5-CfL" secondAttribute="bottom" constant="151" id="NlI-dj-UgM"/>
-                            <constraint firstItem="01I-3p-6gd" firstAttribute="top" relation="lessThanOrEqual" secondItem="AKp-lP-0TK" secondAttribute="bottom" priority="948" constant="224" id="VAP-Qy-y3p"/>
+                            <constraint firstItem="AKp-lP-0TK" firstAttribute="top" secondItem="FXp-N5-CfL" secondAttribute="bottom" constant="294" id="c6h-gB-DSD"/>
+                            <constraint firstItem="SqM-vx-dsk" firstAttribute="top" secondItem="FXp-N5-CfL" secondAttribute="bottom" constant="155" id="iIU-nl-zmQ"/>
+                            <constraint firstItem="k7Y-Bs-4cj" firstAttribute="top" secondItem="FXp-N5-CfL" secondAttribute="bottom" constant="96" id="lq3-BD-i3T"/>
                             <constraint firstAttribute="centerX" secondItem="AKp-lP-0TK" secondAttribute="centerX" id="zw8-yz-pSk"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="flyButton" destination="AKp-lP-0TK" id="g88-vr-OaR"/>
+                        <outlet property="horizontalPigToViewConstraint" destination="J1C-xz-pg4" id="GJ8-8M-gsJ"/>
+                        <outlet property="horizontalReverseWingToViewConstraint" destination="Ne3-of-Eou" id="Lzr-3h-m7F"/>
+                        <outlet property="horizontalWingToViewConstraint" destination="Lcp-sC-u1r" id="7rk-dq-ZnH"/>
+                        <outlet property="verticalPigToTopConstraint" destination="NlI-dj-UgM" id="NOU-lm-15H"/>
+                        <outlet property="verticalReverseWingToTopConstraint" destination="iIU-nl-zmQ" id="256-Y7-6b6"/>
+                        <outlet property="verticalWingToTopConstraint" destination="lq3-BD-i3T" id="QXa-s3-FlJ"/>
                         <outlet property="wingUiImage" destination="A0Q-cf-vCV" id="h6B-eV-w1C"/>
                         <outlet property="wingViewReverse" destination="SqM-vx-dsk" id="g1B-Uv-mk8"/>
                     </connections>
