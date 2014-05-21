@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *wingUiImage;
+@property (weak, nonatomic) IBOutlet UIButton *flyButton;
+@property (weak, nonatomic) IBOutlet UIView *wingViewReverse;
 
 @end
