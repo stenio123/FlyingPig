@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TimeSetupProtocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TimeSetupProtocol>
+
 @property (weak, nonatomic) IBOutlet UIImageView *wingUiImage;
 @property (weak, nonatomic) IBOutlet UIButton *flyButton;
 @property (weak, nonatomic) IBOutlet UIView *wingViewReverse;

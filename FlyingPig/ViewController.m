@@ -16,12 +16,15 @@
 
 bool isFlying;
 UIImageView *reverseWing;
+NSDictionary *setTime;
 
 CGPoint distanceWingFromPig, distanceReverseWingFromPig, originalPosition;//move these to the model class
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:YES];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]];
     CGRect frame = _wingUiImage.frame;
     reverseWing = [[UIImageView alloc]initWithFrame:frame];
     UIImage *reverseWingImage = [UIImage imageWithCGImage: _wingUiImage.image.CGImage scale: 1.0f orientation: UIImageOrientationDownMirrored];
@@ -60,6 +63,8 @@ CGPoint distanceWingFromPig, distanceReverseWingFromPig, originalPosition;//move
     
     [self moveAround:isFlying];
     
+}
+- (IBAction)setupButtonAction:(id)sender {
 }
 
 - (void)flappingShouldStart:(BOOL)start
@@ -118,6 +123,12 @@ CGPoint distanceWingFromPig, distanceReverseWingFromPig, originalPosition;//move
             
         }];
     }
+}
+
+#pragma mark TimeSetupProtocol
+-(void)timeHasBeenSet:(NSDictionary *)time
+{
+    
 }
 
 - (void)didReceiveMemoryWarning

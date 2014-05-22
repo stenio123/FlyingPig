@@ -21,8 +21,10 @@
 		419CFD21192BE27D00E5B337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419CFD03192BE27D00E5B337 /* UIKit.framework */; };
 		419CFD29192BE27D00E5B337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD27192BE27D00E5B337 /* InfoPlist.strings */; };
 		419CFD2B192BE27D00E5B337 /* FlyingPigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 419CFD2A192BE27D00E5B337 /* FlyingPigTests.m */; };
-		419CFD37192CF64900E5B337 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD36192CF64900E5B337 /* README.md */; };
 		419CFD39192D0ECB00E5B337 /* FlyingPigDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD38192D0ECB00E5B337 /* FlyingPigDemo.gif */; };
+		419CFD69192D41A900E5B337 /* EFCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 419CFD3E192D41A800E5B337 /* EFCircularSlider.m */; };
+		419CFD7D192D41A900E5B337 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 419CFD65192D41A900E5B337 /* LICENSE */; };
+		419CFD88192D427100E5B337 /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419CFD87192D427100E5B337 /* AlarmViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +57,13 @@
 		419CFD26192BE27D00E5B337 /* FlyingPigTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyingPigTests-Info.plist"; sourceTree = "<group>"; };
 		419CFD28192BE27D00E5B337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		419CFD2A192BE27D00E5B337 /* FlyingPigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingPigTests.m; sourceTree = "<group>"; };
-		419CFD36192CF64900E5B337 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		419CFD38192D0ECB00E5B337 /* FlyingPigDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FlyingPigDemo.gif; sourceTree = "<group>"; };
+		419CFD3D192D41A800E5B337 /* EFCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCircularSlider.h; sourceTree = "<group>"; };
+		419CFD3E192D41A800E5B337 /* EFCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFCircularSlider.m; sourceTree = "<group>"; };
+		419CFD65192D41A900E5B337 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		419CFD86192D427100E5B337 /* AlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmViewController.h; sourceTree = "<group>"; };
+		419CFD87192D427100E5B337 /* AlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+		41AA2D96192EC0B100B54831 /* TimeSetupProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSetupProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +93,7 @@
 		419CFCF3192BE27D00E5B337 = {
 			isa = PBXGroup;
 			children = (
-				419CFD36192CF64900E5B337 /* README.md */,
+				419CFD3A192D41A800E5B337 /* EFCircularSlider */,
 				419CFD05192BE27D00E5B337 /* FlyingPig */,
 				419CFD24192BE27D00E5B337 /* FlyingPigTests */,
 				419CFCFE192BE27D00E5B337 /* Frameworks */,
@@ -118,8 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				419CFD0E192BE27D00E5B337 /* AppDelegate.h */,
+				41AA2D96192EC0B100B54831 /* TimeSetupProtocol.h */,
 				419CFD0F192BE27D00E5B337 /* AppDelegate.m */,
 				419CFD11192BE27D00E5B337 /* Main.storyboard */,
+				419CFD86192D427100E5B337 /* AlarmViewController.h */,
+				419CFD87192D427100E5B337 /* AlarmViewController.m */,
 				419CFD14192BE27D00E5B337 /* ViewController.h */,
 				419CFD15192BE27D00E5B337 /* ViewController.m */,
 				419CFD17192BE27D00E5B337 /* Images.xcassets */,
@@ -156,6 +166,24 @@
 				419CFD27192BE27D00E5B337 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		419CFD3A192D41A800E5B337 /* EFCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				419CFD3C192D41A800E5B337 /* EFCircularSlider */,
+				419CFD65192D41A900E5B337 /* LICENSE */,
+			);
+			path = EFCircularSlider;
+			sourceTree = "<group>";
+		};
+		419CFD3C192D41A800E5B337 /* EFCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				419CFD3D192D41A800E5B337 /* EFCircularSlider.h */,
+				419CFD3E192D41A800E5B337 /* EFCircularSlider.m */,
+			);
+			path = EFCircularSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +265,7 @@
 				419CFD39192D0ECB00E5B337 /* FlyingPigDemo.gif in Resources */,
 				419CFD18192BE27D00E5B337 /* Images.xcassets in Resources */,
 				419CFD0A192BE27D00E5B337 /* InfoPlist.strings in Resources */,
-				419CFD37192CF64900E5B337 /* README.md in Resources */,
+				419CFD7D192D41A900E5B337 /* LICENSE in Resources */,
 				419CFD13192BE27D00E5B337 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419CFD69192D41A900E5B337 /* EFCircularSlider.m in Sources */,
 				419CFD16192BE27D00E5B337 /* ViewController.m in Sources */,
 				419CFD10192BE27D00E5B337 /* AppDelegate.m in Sources */,
 				419CFD0C192BE27D00E5B337 /* main.m in Sources */,
+				419CFD88192D427100E5B337 /* AlarmViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +500,7 @@
 				419CFD30192BE27D00E5B337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		419CFD31192BE27D00E5B337 /* Build configuration list for PBXNativeTarget "FlyingPigTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +509,7 @@
 				419CFD33192BE27D00E5B337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
