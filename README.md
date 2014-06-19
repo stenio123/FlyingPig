@@ -16,7 +16,7 @@ An exercise using Autolayout and animations.
 - generalize code to follow MVC. Create "TwoAnimatedImagesModel" and "FlyingPigFactory" to generate instances of pigs and wings.
 <br/>
 
-
+..
 For any questions or comments let me know!
 
 @stenio123
